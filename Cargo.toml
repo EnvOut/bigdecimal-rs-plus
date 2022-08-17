@@ -1,0 +1,19 @@
+[package]
+name = "bigdecimal_plus"
+version = "1.0.0"
+edition = "2021"
+
+authors = ["Sergey Firs"]
+description = "Improved arbitrary precision decimal numbers"
+documentation = "https://docs.rs/bigdecimal_plus"
+homepage = "https://github.com/EnvOut/bigdecimal-rs-plus"
+repository = "https://github.com/EnvOut/bigdecimal-rs-plus"
+keywords = ["mathematics", "numerics", "decimal", "arbitrary-precision", "floating-point"]
+license = "MIT/Apache-2.0"
+
+[dependencies]
+bigdecimal = "0.3.0"
+serde = { version = "1.0.127", features = ["derive"] }
+serde_json = "1.0.66"
+anyhow = "1.0.56"
+thiserror = "1.0.30"
